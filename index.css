@@ -1,0 +1,73 @@
+body{
+    background-color: #1A0B2E;
+    color: white;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.logo{
+    color: rgb(212, 92, 134)
+}
+.header-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    list-style: none;
+}
+.header-list a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    background: linear-gradient(    #ff2bd2 0%,
+    #c43bff 50%,
+    #6f4bff 100%);
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.hero {
+  background-image: url("./assets/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 550px;
+    height: 574px;
+    margin: 0 auto;
+}
+.hero-img{
+    position: absolute;
+    top: 180px;
+}
+#btn1{
+     background: linear-gradient(    #ff2bd2 0%,
+    #c43bff 50%,
+    #6f4bff 100%);
+    color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    width: 201px;
+    height: 44px;
+}
+#btn2{
+    background-color: #1A0B2E;
+    color: rgb(41, 184, 41);
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    width: 147px;
+    height: 44px;
+}

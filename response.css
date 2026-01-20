@@ -1,0 +1,176 @@
+@media  screen and (max-width: 576px) {
+    .header{
+        width: 440px;
+        height: 40px;
+        padding-left: 50px;
+        padding-right: 20px;
+        margin-right: 20px;
+        align-items: center;
+    }
+    .header-list{
+        display: none;
+        background: url('./assets/hamburger-menu.png') no-repeat;
+    }
+    .btn{
+        display: none;
+    }
+    .about{
+       width: 400px;
+       height: 575px;
+       margin-top: 50px;
+       margin-left: 5px;
+       margin-bottom: 5px;
+       flex-direction: column;
+    }
+.hero {
+    width: 576px;
+  margin-top: 30px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.badge{
+    position: absolute;
+    top: 100px;
+    right: 580px;
+}
+    .about_info{
+    margin-top: 50px;
+    margin-left: 60px;
+    padding-bottom: 80px;
+    text-align: center;
+    width: 400px;
+    height: 148px;
+}
+.card{
+    padding-top: 80px;
+    padding-bottom: 120px;
+    width: 400px;
+    height: 208px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+    gap: 30px;
+}
+.grid{
+    background-color: #230E3D;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 290px;
+    width: 100%;
+    height: 1450px;
+}
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+#sidebar{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 40px;
+    width: 400px;
+    height: 287px; 
+    position: relative;
+}
+#sidebar1{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 40px;
+    width: 400px;
+    height: 215px;
+}
+#sidebar3{
+    border: 1px solid black; 
+    border-radius: 30px;
+    padding: 40px;
+    width: 400px;
+    height: 215px;
+}
+#sidebar4{
+    border: 1px solid black; 
+    border-radius: 30px;
+    padding: 40px;
+    width: 400px;
+    height: 215px;
+}
+.feature-video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.feature{
+    width: 576px;
+    height: 1936px;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 20px;
+
+}
+.feature-item{
+    border: 1px solid black;
+    width: 440px;
+    height: 393px;
+    gap: 30px;
+    border-radius: 30px;
+    align-items: center;
+    background-color:  #230E3D;
+}
+.video{
+    width: 440px;
+    height: 220px;
+}
+.host-info{ 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 40px;
+    width: 440px;
+    height: 546px;
+    background-color:  #230E3D;
+}
+.host{
+    margin-top: -570px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.host-info-txt{
+    margin-top: -50px;
+    padding: 10px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+  width: 576px;
+  height: 248px;
+}
+ .footer-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 108px;
+    margin: 0 auto;
+    gap: 32px;
+    position: relative;
+    top: -0.01px;
+    padding: 40px;
+ }
+ .footer-img{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+ }
+ .hide{
+    visibility: visible;
+    margin-left: 20px;
+    
+ }

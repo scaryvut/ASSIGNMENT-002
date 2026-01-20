@@ -28,16 +28,26 @@ body{
     #6f4bff 100%);
     color: white;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 30px;
+    display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 12px;
     margin-bottom: 12px;
+    width: 147px;
+    height: 44px;
 }
 .hero {
+  margin-top: 30px;
   background-image: url("./assets/hero-bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+.badge{
+    position: absolute;
+    top: 100px;
+    right: 580px;
 }
 .hero-container{
     display: flex;
@@ -47,9 +57,18 @@ body{
     height: 574px;
     margin: 0 auto;
 }
+.hero-container h1{
+    font-size: 3em;
+    margin-bottom: 14px;
+}
 .hero-img{
     position: absolute;
     top: 180px;
+}
+.button{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 74px;
 }
 #btn1{
      background: linear-gradient(    #ff2bd2 0%,
@@ -61,6 +80,8 @@ body{
     padding: 20px;
     width: 201px;
     height: 44px;
+    display: flex;
+    align-items: center;
 }
 #btn2{
     background-color: #1A0B2E;
@@ -70,18 +91,22 @@ body{
     padding: 20px;
     width: 147px;
     height: 44px;
+    display: flex;
+    align-items: center;
 }
 
 .about{
     margin-left: 200px;
     margin-right: 200px;
+    margin-top: 50px;
 }
 .about_info{
     margin-top: 50px;
-    margin-bottom: 80px;
+    padding-bottom: 80px;
     text-align: center;
     width: 1200px;
     height: 148px;
+    margin: 0 auto;
 }
 .about_info p{
     font-size: 16px;
@@ -89,11 +114,14 @@ body{
     line-gap-override: initial;
 }
 .card{
+    padding-top: 80px;
+    padding-bottom: 120px;
     width: 1200px;
     height: 148px;
     display: flex;
     justify-content: space-between;
     text-align: center;
+    margin: 0 auto;
 }
 .card-ship{
     width: 240px;
@@ -110,6 +138,40 @@ body{
     padding-left: 200px;
     padding-right: 200px;
     padding-top: 120px;
+    padding-bottom: 120px;
+}
+#sidebar{
+    grid-row: span 2;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 40px;
+    width: 380px;
+    height: 480px; 
+    position: relative;
+}
+
+#sidebar1{
+    grid-column: span 2;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 40px;
+}
+#sidebar3{
+    grid-column: span 2;
+    border: 1px solid black; 
+    border-radius: 30px;
+    padding: 40px;
+}
+#sidebar4{
+    border: 1px solid black; 
+    border-radius: 30px;
+    padding: 40px;
+}
+.grid-item{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
 .grid h1{
     text-align: center;
@@ -153,7 +215,6 @@ body{
 .host-info{
     display: flex;
     width: 100%;
-    border: 1px solid white;
     background-color:  #230E3D;
 }
 .host-info-img{
@@ -181,4 +242,37 @@ body{
   justify-content: center;
   color: #fff;
   text-decoration: none;
+}
+ .footer{
+  background-image: url("./assets/footer-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 120px;
+  width: 100%;
+  height: 412px;
+ }
+ .footer-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1360px;
+    height: 172px;
+    margin: 0 auto;
+    gap: 32px;
+    position: relative;
+    top: 110px;
+ }
+ .footer-link{
+    gap: 80px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .footer-link a{
+    text-decoration: none;
+    color: white;
+    gap: 5px;
+ }
+.hide{
+    visibility: hidden;
 }
